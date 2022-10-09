@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo{
+  color: rgb(255, 61, 61);
+  font-size: 5rem;
+  font-family: 'Courier New', Courier, monospace ;
+  font-weight: bold;
+  
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+   gap: 2rem;
+   color: white;
+}
+
+.header-menu>li:hover{
+    cursor: pointer;
+  color: var(--orange);
+  font-size: 15px;
+}
+
+
+/**/
+@media screen and (max-width:844px){
+    .header>:nth-child(2){
+      position: fixed;
+      right: 2rem;
+      z-index: 99;
+     
+    }
+
+    .header-menu{
+      flex-direction: column;
+      background-color: var(--appColor);
+      padding: 2rem;
+    }
+    .header-hamburger{
+      background-color: transparent;
+      border-radius: 5%;
+      padding: 0.5rem;
+    
+    } 
+    
+    #ham{
+      border: 2px solid red;
+      display: flex;
+      justify-content: right;
+    }
+}
+
+

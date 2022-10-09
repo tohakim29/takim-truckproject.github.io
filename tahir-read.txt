@@ -1,0 +1,24 @@
+/cmd install packeges node
+npm install
+ /cmd startn server
+ yarn 
+
+ /cmd icons
+ npm install react-icons
+
+ /cmd
+npm add emailjs
+or
+npm install emailjs-com --save
+import emailjs from 'emailjs-com';
+
+/cmd
+npm install framer-motion
+then
+import {motion} from 'framer-motion'
+
+
+/cmd
+npm install number-counter
+then
+import NumberCounter from 'number-counter'
