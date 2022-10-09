@@ -18,7 +18,7 @@ const Footer = () => {
                 <img src={LinkeIn}  alt="" />
             </div>
             <div className="logo-f">
-                <div>&copy; Copyright 2022</div>
+                <div>&copy; Copyright 2022hello</div>
             </div>
         </div>
 
