@@ -16,13 +16,13 @@ const [menuOpened, setMenuOpened] = useState(false)
   return (
     <div className="header">
       
-       <div className='header-logo' >R</div>
+       <span className='header-logo' >R</span>
    
-        {(menuOpened===false && mobile===true) ?  (
+        { (menuOpened===false && mobile===true) ?  (
           <div onClick={()=>{setMenuOpened(true)}}  className='header-hamburger'>
-            <img src={Bars} alt="Bars" style={{width:"1.5rem",height:'1.5rem'}}/>
+            <img src={Bars} alt="Bars" style={{width:"1.5rem",height:'1.5rem'}} />
           </div>
-        ) : ( 
+        ):( 
                 <ul className = 'header-menu' >
                   <li> <Link onClick={()=>{setMenuOpened(false)}}  to='home' spy={true} smooth={true} activeClass='active'>  home</Link></li>
                   <li> <Link onClick={()=>{setMenuOpened(false)}}  to='programs' spy={true} smooth={true}>programs</Link>  </li>
